@@ -1,0 +1,82 @@
+body {
+  display: flex;
+  position: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+}
+
+.orange,
+.white,
+.green {
+  height: 100px;
+  width: 500px;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.white {
+  background-color: white;
+  display: flex;
+  position: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.green {
+  background-color: rgb(9, 179, 9);
+}
+
+.wheel {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  outline: 2px solid darkblue;
+  display: flex;
+  position: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  position: absolute;
+  height: 100px;
+  width: 2px;
+  background-color: darkblue;
+  left: 50%;
+}
+.line:nth-child(1) {
+  transform: rotate(15deg);
+}
+.line:nth-child(2) {
+  transform: rotate(30deg);
+}
+.line:nth-child(3) {
+  transform: rotate(45deg);
+}
+.line:nth-child(4) {
+  transform: rotate(60deg);
+}
+.line:nth-child(5) {
+  transform: rotate(75deg);
+}
+.line:nth-child(6) {
+  transform: rotate(90deg);
+}
+.line:nth-child(7) {
+  transform: rotate(105deg);
+}
+.line:nth-child(8) {
+  transform: rotate(120deg);
+}
+.line:nth-child(9) {
+  transform: rotate(135deg);
+}
+.line:nth-child(10) {
+  transform: rotate(150deg);
+}
+.line:nth-child(11) {
+  transform: rotate(165deg);
+}
